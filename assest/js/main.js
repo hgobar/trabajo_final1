@@ -297,6 +297,13 @@ async function main(){
     });
 });
 
+    setTimeout(() => {
+    const loaderHTML = document.querySelector("#loader");
+    loaderHTML.classList.add("loader__hiden");
+    document.body.classList.remove("hidden");
+     }, 1000);
+
+
 }
 
 
