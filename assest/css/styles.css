@@ -341,7 +341,8 @@ header > nav > i{
 /* ------FOOTER */
 
 .footer{
-    max-width: 1024px;
+    margin: 0 auto;
+    max-width: 100%;
     background-color: var(--color-navbar);
     padding: 3rem;
     width: 100%;
