@@ -59,6 +59,26 @@ header {
     border-radius: 10px;
 }
 
+/* -------------------------IMG BOING */
+
+@keyframes boing {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.container__top .top-der-img img {
+    animation: boing 1s infinite;
+}
+
 /* -------------------------CONTAINER_CONT */
 
 .container__cont {
